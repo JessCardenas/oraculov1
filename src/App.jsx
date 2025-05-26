@@ -3,6 +3,8 @@ import HomeScreen from "./components/HomeScreen";
 import OraculoScreen from "./components/OraculoScreen";
 import RespuestaScreen from "./components/RespuestaScreen";
 import "./App.css";
+import Clouds from "./assets/images/Clouds_upper.svg";
+import Clouds_Above from "./assets/images/Clouds_Above.svg";
 
 function App() {
   const [pantalla, setPantalla] = useState("home");
@@ -11,6 +13,7 @@ function App() {
 
   return (
     <div className="min-h-screen text-white flex items-center justify-center">
+      <img src={Clouds} alt="Nubes fondo" className="upperClouds" />
       {pantalla === "home" && <HomeScreen cambiarPantalla={setPantalla} />}
       {pantalla === "oraculo" && (
         <OraculoScreen
@@ -26,6 +29,7 @@ function App() {
           volver={setPantalla}
         />
       )}
+      <img src={Clouds_Above} alt="Nubes fondo" className="underClouds" />
     </div>
   );
 }

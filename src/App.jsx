@@ -10,7 +10,7 @@ function App() {
   const [respuesta, setRespuesta] = useState("");
 
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center">
+    <div className="min-h-screen text-white flex items-center justify-center">
       {pantalla === "home" && <HomeScreen cambiarPantalla={setPantalla} />}
       {pantalla === "oraculo" && (
         <OraculoScreen

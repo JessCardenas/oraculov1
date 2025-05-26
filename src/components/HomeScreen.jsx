@@ -1,10 +1,10 @@
 function HomeScreen({ cambiarPantalla }) {
   return (
     <div className="text-center space-y-6">
-      <h2 className="text-7xl font-bold">
+      <h2 className="text-8xl font-bold font-starlight">
         ¿Dejamos que el destino decida por ti?
       </h2>
-      <h1 className="text-4xl font-bold">Oráculo</h1>
+      <h1 className="text-4xl">Oráculo</h1>
       <h3 className="text-xl">Haz tu pregunta y recibe la verdad mística</h3>
       <button
         onClick={() => cambiarPantalla("oraculo")}

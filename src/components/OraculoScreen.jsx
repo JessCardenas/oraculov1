@@ -9,7 +9,7 @@ function OraculoScreen({ setPregunta, setRespuesta, cambiarPantalla }) {
     setPregunta(input);
     const respuesta = obtenerRespuesta();
     setRespuesta(respuesta);
-    cambiarPantalla("resultado");
+    cambiarPantalla("respuesta");
   };
 
   return (

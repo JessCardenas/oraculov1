@@ -1,1 +1,11 @@
-@import "tailwindcss";
+@font-face {
+  font-family: "StarlightRune";
+  src: url("./assets/fonts/starlight-rune-font.woff2") format("woff2"),
+    url("./assets/fonts/starlight-rune-font.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: blue;
+}

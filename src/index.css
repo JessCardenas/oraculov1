@@ -51,3 +51,19 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+p {
+  color: var(--Text_option-Text_color, #000);
+  text-align: center;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--Text_option-Stroke_color, #d5b993);
+  font-family: "Starlight Rune - Personal Use";
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px; /* 90.909% */
+}
+
+img .estrella {
+  position: absolute;
+}

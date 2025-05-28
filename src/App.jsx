@@ -4,7 +4,7 @@ import OraculoScreen from "./components/OraculoScreen";
 import RespuestaScreen from "./components/RespuestaScreen";
 import "./App.css";
 import Clouds from "./assets/images/Clouds_upper.svg";
-import Clouds_Above from "./assets/images/Clouds_Above.svg";
+import Clouds_above from "./assets/images/Clouds_above.svg";
 
 function App() {
   const [pantalla, setPantalla] = useState("home");
@@ -29,7 +29,7 @@ function App() {
           volver={setPantalla}
         />
       )}
-      <img src={Clouds_Above} alt="Nubes fondo" className="underClouds" />
+      <img src={Clouds_above} alt="Nubes fondo" className="underClouds" />
     </div>
   );
 }

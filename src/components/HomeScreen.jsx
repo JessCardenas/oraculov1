@@ -33,7 +33,7 @@ function HomeScreen({ cambiarPantalla }) {
         </div>
         <div>
           <button
-            onClick={() => cambiarPantalla("oraculo")}
+            onClick={() => cambiarPantalla("frases")}
             className="mt-4 px-6 py-3   rounded-lg"
           >
             <p>No</p>

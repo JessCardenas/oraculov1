@@ -2,6 +2,7 @@ import { useState } from "react";
 import HomeScreen from "./components/HomeScreen";
 import OraculoScreen from "./components/OraculoScreen";
 import RespuestaScreen from "./components/RespuestaScreen";
+import FrasesScreen from "./components/FrasesScreen";
 import "./App.css";
 import Clouds from "./assets/images/Clouds_upper.svg";
 import Clouds_above from "./assets/images/Clouds_above.svg";
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="min-h-screen text-white flex items-center justify-center">
       <img src={Clouds} alt="Nubes fondo" className="upperClouds" />
+
       {pantalla === "home" && <HomeScreen cambiarPantalla={setPantalla} />}
       {pantalla === "oraculo" && (
         <OraculoScreen
@@ -29,6 +31,8 @@ function App() {
           volver={setPantalla}
         />
       )}
+      {pantalla === "frases" && <FrasesScreen volver={setPantalla} />}
+
       <img src={Clouds_above} alt="Nubes fondo" className="underClouds" />
     </div>
   );

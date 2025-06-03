@@ -3,7 +3,7 @@
   justify-items: center;
   margin: 0 auto;
   position: relative;
-  top: -120px;
+  top: -100px;
 }
 
 .fraseRandom {
@@ -21,5 +21,23 @@
   font-size: 110px;
   font-style: normal;
   font-weight: 400;
-  line-height: 100px; /* 90.909% */
+  line-height: 100px;
+  padding-bottom: 90px;
+}
+
+.botonInicio {
+  width: 250px;
+  padding: var(--Button-Button_padding, 10px);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--Button-Button_radius, 20px);
+  border: var(--Button-Default-Stroke, 3px) solid
+    var(--Button-Default-Stroke_color, #d5b993);
+  color: var(--Button-Default-Text_color, #d5b993);
+  text-align: center;
+  font-family: Playfair;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
 }

@@ -18,9 +18,9 @@ function FrasesScreen({ volver }) {
       <p className="fraseRandom max-w-xl">{frase}</p>
       <button
         onClick={() => volver("home")}
-        className="mt-6 px-6 py-2 bg-gray-700 hover:bg-gray-800 rounded-lg"
+        className="botonInicio  hover:bg-gray-800"
       >
-        Volver al inicio
+        Inicio
       </button>
     </div>
   );

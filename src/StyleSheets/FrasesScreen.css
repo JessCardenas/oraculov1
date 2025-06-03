@@ -1,0 +1,25 @@
+.ojoSticker {
+  display: block;
+  justify-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: -120px;
+}
+
+.fraseRandom {
+  background: linear-gradient(
+    97deg,
+    var(--Colores-Primary_Medium, #a28d70) 17.84%,
+    var(--Colores-Primary_Light, #d5b993) 41.62%,
+    var(--Colores-Primary_strong, #6f604d) 91.19%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "StarlightRune";
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px; /* 90.909% */
+}

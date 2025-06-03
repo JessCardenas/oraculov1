@@ -34,10 +34,13 @@ function HomeScreen({ cambiarPantalla }) {
         <div>
           <button
             onClick={() => cambiarPantalla("frases")}
-            className="mt-4 px-6 py-3   rounded-lg"
+            className="group relative flex items-center justify-center"
           >
-            <p>No</p>
-            <img src={Estrella_vector} className="estrella" />
+            <p className="z-10">No</p>
+            <img
+              src={Estrella_vector}
+              className="absolute inset-0 w-full h-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            />
           </button>
         </div>
       </div>

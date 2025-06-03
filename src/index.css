@@ -12,7 +12,7 @@ body {
 
 .upperClouds {
   position: fixed;
-  top: 50px;
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
   max-width: 100%;
@@ -22,7 +22,7 @@ body {
 
 .underClouds {
   position: fixed;
-  bottom: 90px;
+  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   max-width: 100%;

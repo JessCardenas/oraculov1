@@ -1,0 +1,85 @@
+.eyeSticker {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  top: -120px;
+}
+
+h1 {
+  font-family: "StarlightRune";
+  text-align: center;
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px;
+  padding-bottom: 30px;
+  background: linear-gradient(
+    97deg,
+    var(--Colores-Primary_Medium, #a28d70) 17.84%,
+    var(--Colores-Primary_Light, #d5b993) 41.62%,
+    var(--Colores-Primary_strong, #6f604d) 91.19%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  color: #d5b993;
+  font-family: Playfair;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.cajaPregunta {
+  width: 556px;
+  height: 110px;
+  padding: 18px 30px;
+  margin: 40px 40px;
+  border-radius: 14px;
+  border: 3px solid #ccb47f;
+  background: #ffffff21;
+  color: #ccb47f;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.cajaPregunta:hover {
+  background: #ffffff;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+}
+
+.botonPreguntar {
+  width: 200px;
+  margin-top: 30px;
+  padding: 7px;
+  align-items: center;
+  border-radius: var(--Button-Button_radius, 300px);
+  border: var(--Button-Default-Stroke, 3px) solid
+    var(--Button-Default-Stroke_color, #d5b993);
+  color: var(--Button-Default-Text_color, #d5b993);
+  text-align: center;
+  font-family: "StarlightRune";
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.botonPreguntar:hover {
+  background-color: #d5b993;
+  color: #1b2628;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+  box-shadow: 0px 0px 20px #d5b993;
+}

@@ -26,18 +26,27 @@
 }
 
 .botonInicio {
-  width: 250px;
-  padding: var(--Button-Button_padding, 10px);
-  justify-content: space-between;
+  width: 200px;
+  margin-top: 30px;
+  padding: 7px;
   align-items: center;
-  border-radius: var(--Button-Button_radius, 20px);
+  border-radius: var(--Button-Button_radius, 300px);
   border: var(--Button-Default-Stroke, 3px) solid
     var(--Button-Default-Stroke_color, #d5b993);
   color: var(--Button-Default-Text_color, #d5b993);
   text-align: center;
-  font-family: Playfair;
+  font-family: "StarlightRune";
+  letter-spacing: 2px;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
-  line-height: 60px;
+  line-height: 50px;
+}
+
+.botonInicio:hover {
+  background-color: #d5b993;
+  color: #1b2628;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+  box-shadow: 0px 0px 20px #d5b993;
 }

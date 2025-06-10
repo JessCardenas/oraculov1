@@ -4,7 +4,7 @@ import "../StyleSheets/HomeScreen.css";
 
 function HomeScreen({ cambiarPantalla }) {
   return (
-    <div className="text-center space-y-6">
+    <div className="text-center">
       <h1 className="inicio max-w-xl mx-auto">
         ¿Dejamos que el destino decida por ti?
       </h1>

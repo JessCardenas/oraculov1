@@ -17,7 +17,7 @@ function OraculoScreen({ setPregunta, setRespuesta, cambiarPantalla }) {
   return (
     <div className="text-center">
       <img src={Eye} alt="EyeSticker" className="eyeSticker" />
-      <h1 className="text-2xl font-semibold">Haz tu pregunta al destino</h1>
+      <h1 className="h1screenoraculo">Haz tu pregunta al destino</h1>
       <h2>
         Recuerda que el destino es sabio, pero sus respuestas son breves: 'Sí',
         'No' o 'Tal vez'.

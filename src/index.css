@@ -12,18 +12,27 @@ body {
 
 .upperClouds {
   position: fixed;
-  top: 10px;
+  top: 3px;
   left: 50%;
+  width: 95%;
   transform: translateX(-50%);
   max-width: 100%;
   opacity: 0.8;
   pointer-events: none;
 }
 
+.fondoEstrellas {
+  position: fixed;
+  margin-top: 20px;
+  width: 70%;
+  pointer-events: none;
+}
+
 .underClouds {
   position: fixed;
-  bottom: 0px;
+  bottom: 3px;
   left: 50%;
+  width: 95%;
   transform: translateX(-50%);
   max-width: 100%;
   opacity: 0.9;
@@ -40,8 +49,4 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 100px; /* 90.909% */
-}
-
-img .estrella {
-  position: absolute;
 }

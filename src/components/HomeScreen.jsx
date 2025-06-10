@@ -1,10 +1,11 @@
 import Bola_manos from "../assets/images/Bola_manos.svg";
 import Estrella_vector from "../assets/images/Estrella_vector.png";
+import "../StyleSheets/HomeScreen.css";
 
 function HomeScreen({ cambiarPantalla }) {
   return (
     <div className="text-center space-y-6">
-      <h1 className="text-8xl font-bold">
+      <h1 className="inicio max-w-xl mx-auto">
         ¿Dejamos que el destino decida por ti?
       </h1>
       <h2 className="text-4xl">
@@ -18,11 +19,7 @@ function HomeScreen({ cambiarPantalla }) {
             onClick={() => cambiarPantalla("oraculo")}
             className="group relative flex items-center justify-center"
           >
-            <img
-              src={Estrella_vector}
-              alt="Estrella"
-              className="absolute inset-0 w-full h-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            />
+            <img src={Estrella_vector} alt="Estrella" className="estrella" />
 
             <p className="z-10">Sí</p>
           </button>

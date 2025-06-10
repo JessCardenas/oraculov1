@@ -19,7 +19,32 @@
 
 .estrella {
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -2;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  z-index: 0;
+  margin-bottom: 15px;
+}
+
+.boton:hover .estrella {
+  opacity: 1;
+}
+
+.respuestaHomescreen {
+  color: var(--Text_option-Text_color, #000);
+  text-align: center;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--Text_option-Stroke_color, #d5b993);
+  font-family: "Starlight Rune - Personal Use";
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px; /* 90.909% */
+  padding: 90px 80px;
+}
+
+.respuestaHomescreen:hover {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--Text_option-Stroke_color, #000);
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
 }

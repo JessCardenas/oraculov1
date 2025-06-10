@@ -17,11 +17,11 @@ function HomeScreen({ cambiarPantalla }) {
         <div>
           <button
             onClick={() => cambiarPantalla("oraculo")}
-            className="group relative flex items-center justify-center"
+            className="boton group relative flex items-center justify-center"
           >
             <img src={Estrella_vector} alt="Estrella" className="estrella" />
 
-            <p className="z-10">Sí</p>
+            <p className="respuestaHomescreen z-10">Sí</p>
           </button>
         </div>
 
@@ -31,13 +31,10 @@ function HomeScreen({ cambiarPantalla }) {
         <div>
           <button
             onClick={() => cambiarPantalla("frases")}
-            className="group relative flex items-center justify-center"
+            className="boton group relative flex items-center justify-center"
           >
-            <p className="z-10">No</p>
-            <img
-              src={Estrella_vector}
-              className="absolute inset-0 w-full h-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            />
+            <p className="respuestaHomescreen z-10">No</p>
+            <img src={Estrella_vector} className="estrella" />
           </button>
         </div>
       </div>

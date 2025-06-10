@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 @font-face {
   font-family: "StarlightRune";
   src: url("./assets/fonts/starlight-rune-font.woff2") format("woff2"),

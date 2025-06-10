@@ -7,7 +7,7 @@ function RespuestaScreen({ pregunta, respuesta, volver }) {
         {" "}
         {respuesta}
       </div>
-      <button onClick={() => volver("home")} className="hover:bg-gray-800">
+      <button onClick={() => volver("home")} className="botonInicio">
         Inicio
       </button>
     </div>

@@ -8,12 +8,13 @@ function HomeScreen({ cambiarPantalla }) {
       <h1 className="inicio max-w-xl mx-auto">
         ¿Dejamos que el destino decida por ti?
       </h1>
-      <h2 className="text-4xl">
+
+      <h2 className="subtitulo font-medium max-w-2xl mx-auto my-4 text-center">
         El destino es sabio, pero sus respuestas son breves: "Sí", "No" o "Tal
         vez".
       </h2>
 
-      <div className="flex items-center justify-around">
+      <div className="flex flex-col md:flex-row  items-center justify-evenly max-w-5xl mx-auto px-4 ">
         <div>
           <button
             onClick={() => cambiarPantalla("oraculo")}
@@ -26,7 +27,11 @@ function HomeScreen({ cambiarPantalla }) {
         </div>
 
         <div>
-          <img src={Bola_manos} alt="Pregunta al Oráculo" />{" "}
+          <img
+            src={Bola_manos}
+            alt="Pregunta al Oráculo"
+            className="hidden md:block w-4/5 max-w-md mx-auto"
+          />{" "}
         </div>
         <div>
           <button

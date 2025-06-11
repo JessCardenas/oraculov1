@@ -23,7 +23,7 @@ function App() {
       <img
         src={fondo_estrellas}
         alt="Fondo estrellas"
-        className="fondoEstrellas"
+        className="fondoEstrellas hidden md:block"
       />
 
       {pantalla === "home" && <HomeScreen cambiarPantalla={setPantalla} />}

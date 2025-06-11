@@ -13,13 +13,10 @@ function FrasesScreen({ volver }) {
   }, []);
 
   return (
-    <div className="text-center space-y-6">
-      <img src={Ojo_sticker} alt="ojoSticker" className="ojoSticker" />
+    <div className="text-center flex flex-col items-center justify-evenly max-w-5xl mx-auto px-4 gap-y-1 ">
+      <img src={Ojo_sticker} alt="ojoSticker" className="ojoSticker  " />
       <p className="fraseRandom max-w-xl">{frase}</p>
-      <button
-        onClick={() => volver("home")}
-        className="botonInicio"
-      >
+      <button onClick={() => volver("home")} className="botonInicio">
         Inicio
       </button>
     </div>

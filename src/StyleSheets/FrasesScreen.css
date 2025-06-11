@@ -1,9 +1,13 @@
 .ojoSticker {
-  display: block;
-  justify-items: center;
-  margin: 0 auto;
   position: relative;
-  top: -100px;
+  top: -30px;
+  transform: scale(0.8);
+}
+.ojoSticker:hover {
+  transform: scale(1);
+  transition: transform 0.9s ease-in-out;
+  z-index: 1;
+  filter: drop-shadow(0px 0px 20px #d5b993);
 }
 
 .fraseRandom {
@@ -16,13 +20,11 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
   font-family: "StarlightRune";
-  font-size: 110px;
+  font-size: clamp(2.5rem, 6vw, 6.875rem);
   font-style: normal;
-  font-weight: 400;
-  line-height: 100px;
-  padding-bottom: 90px;
+  line-height: 1.1;
+  padding-bottom: 3rem;
 }
 
 .botonInicio {
@@ -49,4 +51,21 @@
   cursor: pointer;
   transition: all 0.7s ease-in-out;
   box-shadow: 0px 0px 20px #d5b993;
+}
+
+@media (max-width: 768px) {
+  .ojoSticker {
+    top: -100px;
+  }
+
+  .fraseRandom {
+    font-size: clamp(2rem, 6vw, 5.875rem);
+    padding-bottom: 2rem;
+  }
+  .botonInicio {
+    width: 150px;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 80px;
+  }
 }

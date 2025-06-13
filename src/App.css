@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@keyframes blink {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 3;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+}
+
+.fondoEstrellas {
+
+  animation: blink 3.9s ease-in-out infinite;
+}

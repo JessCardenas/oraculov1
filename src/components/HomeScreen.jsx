@@ -30,7 +30,7 @@ function HomeScreen({ cambiarPantalla }) {
           <img
             src={Bola_manos}
             alt="Pregunta al Oráculo"
-            className="hidden md:block w-4/5 max-w-md mx-auto"
+            className="bolaManos hidden md:block w-4/5 max-w-md mx-auto"
           />{" "}
         </div>
         <div>

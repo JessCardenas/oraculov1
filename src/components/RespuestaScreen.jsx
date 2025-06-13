@@ -3,10 +3,7 @@ function RespuestaScreen({ pregunta, respuesta, volver }) {
     <div className="text-center space-y-6">
       <h2 className="text-2xl font-bold"> Tu pregunta: </h2>
       <p className="italic">{pregunta}</p>
-      <div className="text-3xl font-bold text-green-400 animate-pulse">
-        {" "}
-        {respuesta}
-      </div>
+      <div className="text-3xl animate-pulse"> {respuesta}</div>
       <button onClick={() => volver("home")} className="botonInicio">
         Inicio
       </button>

@@ -1,17 +1,13 @@
 .eyeSticker {
-  position: relative;
-  display: block;
-  margin: 0 auto;
-  top: -120px;
+  margin-bottom: 60px;
 }
 
 .h1screenoraculo {
-  font-family: "StarlightRune";
+  font-family: "StarlightRune", serif;
   text-align: center;
-  font-size: 110px;
+  font-size: clamp(2.5rem, 7vw, 6.875rem);
   font-style: normal;
-  font-weight: 400;
-  line-height: 100px;
+  line-height: 1;
   padding-bottom: 30px;
   background: linear-gradient(
     97deg,
@@ -27,7 +23,7 @@
 h2 {
   color: #d5b993;
   font-family: Playfair;
-  font-size: 30px;
+  font-size: clamp(1.25rem, 4vw, 2rem);
   font-style: normal;
   font-weight: 400;
   line-height: 60px;
@@ -35,19 +31,20 @@ h2 {
 }
 
 .cajaPregunta {
-  width: 556px;
-  height: 110px;
-  padding: 18px 30px;
-  margin: 40px 40px;
+  width: 100%;
+  max-width: 556px;
+  height: auto;
+  padding: 1.25rem 2rem;
+  margin: 2rem 0;
   border-radius: 14px;
   border: 3px solid #ccb47f;
   background: #ffffff21;
   color: #ccb47f;
   font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-size: clamp(1.25rem, 4vw, 1.875rem);
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 1.5;
   text-align: center;
 }
 
@@ -59,21 +56,18 @@ h2 {
 }
 
 .botonPreguntar {
-  width: 200px;
+  width: 12rem;
   margin-top: 30px;
-  padding: 7px;
-  align-items: center;
+  padding: 0.5rem;
   border-radius: var(--Button-Button_radius, 300px);
   border: var(--Button-Default-Stroke, 3px) solid
     var(--Button-Default-Stroke_color, #d5b993);
   color: var(--Button-Default-Text_color, #d5b993);
   text-align: center;
-  font-family: "StarlightRune";
+  font-family: "StarlightRune", serif;
   letter-spacing: 2px;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 50px;
+  font-size: clamp(1.25rem, 3vw, 1.875rem);
+  line-height: 3rem;
 }
 
 .botonPreguntar:hover {
@@ -82,4 +76,20 @@ h2 {
   cursor: pointer;
   transition: all 0.7s ease-in-out;
   box-shadow: 0px 0px 20px #d5b993;
+}
+
+@media (max-width: 768px) {
+  .eyeSticker {
+    margin-bottom: 100px;
+  }
+
+  .cajaPregunta {
+    width: 80%;
+    padding: 1.3rem;
+    font-size: clamp(1rem, 4vw, 1.5rem);
+  }
+
+  .h1screenoraculo {
+    font-size: 55px;
+  }
 }

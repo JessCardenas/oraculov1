@@ -15,19 +15,18 @@ function OraculoScreen({ setPregunta, setRespuesta, cambiarPantalla }) {
   };
 
   return (
-    <div className="text-center">
+    <div className="flex flex-col items-center justify-evenly px-4 container max-w-5xl gap-y-1">
       <img src={Eye} alt="EyeSticker" className="eyeSticker" />
       <h1 className="h1screenoraculo">Haz tu pregunta al destino</h1>
-      <h2>
-        Recuerda que el destino es sabio, pero sus respuestas son breves: 'Sí',
-        'No' o 'Tal vez'.
+      <h2 className="text-center text-lg mb-4">
+        El oráculo te escuchará y te dará una respuesta
       </h2>
       <input
         type="text"
         placeholder="¿Qué deseas saber?"
         value={input}
         onChange={(e) => setInput(e.target.value)}
-        className="cajaPregunta p-2 rounded-md "
+        className="cajaPregunta"
       />
       <button
         onClick={manejarPregunta}

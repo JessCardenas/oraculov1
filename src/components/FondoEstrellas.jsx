@@ -31,7 +31,7 @@ const estrellasConfig = [
     variant: "pequeña",
     delay: 0.5,
     size: 30,
-    style: { bottom: "45%", left: "35%" },
+    style: { bottom: "45%", left: "28%" },
   },
   {
     variant: "pequeña",

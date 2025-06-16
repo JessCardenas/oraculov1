@@ -7,13 +7,13 @@ const estrellasConfig = [
     variant: "grande",
     delay: 0.3,
     size: 44,
-    style: { top: "15%", left: "70%" },
+    style: { top: "15%", left: "72%" },
   },
   {
     variant: "grande",
     delay: 0.6,
     size: 44,
-    style: { bottom: "35%", left: "80%" },
+    style: { bottom: "35%", left: "68%" },
   },
   {
     variant: "grande",
@@ -43,7 +43,7 @@ const estrellasConfig = [
     variant: "pequeña",
     delay: 1.1,
     size: 30,
-    style: { bottom: "15%", right: "30%" },
+    style: { bottom: "15%", right: "25%" },
   },
 ];
 

@@ -13,7 +13,7 @@ const estrellasConfig = [
     variant: "grande",
     delay: 0.6,
     size: 44,
-    style: { bottom: "35%", left: "68%" },
+    style: { bottom: "35%", left: "78%" },
   },
   {
     variant: "grande",

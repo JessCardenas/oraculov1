@@ -1,0 +1,21 @@
+.estrella-wrapper {
+  position: absolute;
+  pointer-events: none;
+  z-index: -10;
+  width: 100%;
+}
+
+.animacion-parpadeo {
+  animation: parpadeoEstrella 0.9s ease-out infinite alternate;
+}
+
+@keyframes parpadeoEstrella {
+  0% {
+    transform: scale(1.5);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

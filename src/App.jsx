@@ -5,9 +5,8 @@ import RespuestaScreen from "./components/RespuestaScreen";
 import FrasesScreen from "./components/FrasesScreen";
 import "./App.css";
 import upper_clouds from "./assets/images/upper_clouds.png";
-import fondo_estrellas from "./assets/images/fondo_estrellas.png";
 import Clouds_above from "./assets/images/Clouds_above.svg";
-
+import FondoEstrellas from "./components/FondoEstrellas";
 function App() {
   const [pantalla, setPantalla] = useState("home");
   const [pregunta, setPregunta] = useState("");
@@ -20,11 +19,7 @@ function App() {
         alt="Nubes fondo"
         className="upperClouds max-w-xl"
       />
-      <img
-        src={fondo_estrellas}
-        alt="Fondo estrellas"
-        className="fondoEstrellas hidden md:block"
-      />
+      <FondoEstrellas />
 
       {pantalla === "home" && <HomeScreen cambiarPantalla={setPantalla} />}
       {pantalla === "oraculo" && (

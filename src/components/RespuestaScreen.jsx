@@ -3,12 +3,16 @@ import "../StyleSheets/RespuestasScreen.css";
 
 function RespuestaScreen({ pregunta, respuesta, volver }) {
   return (
-    <div className="flex flex-col items-center justify-evenly px-4 container max-w-5xl gap-y-1">
+    <div className="respuesta-screen flex flex-col items-center justify-center px-4 container max-w-5xl">
       <h1 className="h1Respuesta"> El destino ha hablado </h1>
       <h2 className="Pregunta">{pregunta}</h2>
 
-      <div className="relative w-4/5 max-w-md">
-        <img src={Bola} alt="Respuesta" className="RespuestaBola w-full h-auto " />
+      <div className="bola-y-texto relative w-4/5 max-w-md">
+        <img
+          src={Bola}
+          alt="Respuesta"
+          className="RespuestaBola w-full h-auto "
+        />
         <p className="RespuestaTexto absolute inset-0 flex items-center justify-center md:text-4xl animate-pulse">
           {" "}
           {respuesta}

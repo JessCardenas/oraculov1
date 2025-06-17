@@ -57,3 +57,20 @@
   -webkit-text-stroke-color: #000;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .inicio {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+  }
+  .subtitulo {
+    font-size: clamp(1.25rem, 4vw, 1.5rem);
+  }
+  .respuestaHomescreen {
+    font-size: clamp(1.5rem, 5vw, 3.5rem);
+    padding: 1rem;
+  }
+
+  .bolaManos {
+    transform: scale(80%);
+  }
+}

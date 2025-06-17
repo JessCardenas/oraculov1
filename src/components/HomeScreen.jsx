@@ -5,7 +5,7 @@ import "../StyleSheets/HomeScreen.css";
 function HomeScreen({ cambiarPantalla }) {
   return (
     <div className="text-center container mx-auto min-h-screen flex flex-col justify-center px-4">
-      <h1 className="inicio max-w-xl mx-auto">
+      <h1 className="inicio max-w-xl mx-auto mt-9">
         ¿Dejamos que el destino decida por ti?
       </h1>
 
@@ -30,7 +30,7 @@ function HomeScreen({ cambiarPantalla }) {
           <img
             src={Bola_manos}
             alt="Pregunta al Oráculo"
-            className="bolaManos hidden md:block w-4/5 max-w-md mx-auto"
+            className="bolaManos md:block w-4/5 max-w-md mx-auto"
           />{" "}
         </div>
         <div>

@@ -15,7 +15,7 @@ function OraculoScreen({ setPregunta, setRespuesta, cambiarPantalla }) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-evenly px-4 container max-w-5xl gap-y-1">
+    <div className="pantalla-oraculo flex flex-col items-center justify-center container max-w-4xl min-h-screen">
       <img src={Eye} alt="EyeSticker" className="eyeSticker" />
       <h1 className="h1screenoraculo">Haz tu pregunta al destino</h1>
       <h2 className="text-center text-lg mb-4">

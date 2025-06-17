@@ -1,3 +1,9 @@
+.pantalla-oraculo {
+  width: 100%;
+  min-height: 100vh;
+  gap: 1rem;
+}
+
 .eyeSticker {
   margin-bottom: 60px;
 }
@@ -22,11 +28,10 @@
 
 h2 {
   color: #d5b993;
-  font-family: Playfair;
+  font-family: "Playfair";
   font-size: clamp(1.25rem, 4vw, 2rem);
   font-style: normal;
-  font-weight: 400;
-  line-height: 60px;
+  line-height: 1;
   margin-bottom: 30px;
 }
 
@@ -79,17 +84,32 @@ h2 {
 }
 
 @media (max-width: 768px) {
+  .pantalla-oraculo {
+    padding: 1rem;
+    transform: scale(0.9);
+  }
+
   .eyeSticker {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+    transform: scale(0.6);
   }
 
   .cajaPregunta {
     width: 80%;
     padding: 1.3rem;
     font-size: clamp(1rem, 4vw, 1.5rem);
+    transform: scale(0.8);
   }
 
   .h1screenoraculo {
     font-size: 55px;
+  }
+
+  .botonPreguntar {
+    width: 10rem;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    line-height: 2.5rem;
+    margin-top: 50px;
+    transform: scale(0.8);
   }
 }

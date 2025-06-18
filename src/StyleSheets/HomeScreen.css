@@ -32,7 +32,6 @@
   transition: opacity 0.7s ease;
   z-index: 0;
   margin: 10px;
-  
 }
 
 .boton:hover .estrella {
@@ -66,10 +65,14 @@
   }
   .inicio {
     font-size: clamp(2.5rem, 6vw, 4rem);
+    padding: 16px 25px;
   }
   .subtitulo {
     font-size: clamp(1.25rem, 4vw, 1.5rem);
     padding: 1rem;
+  }
+  .containerBolaManos {
+    transform: scale(0.8);
   }
   .respuestaHomescreen {
     font-size: 2rem;

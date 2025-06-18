@@ -14,7 +14,7 @@ function HomeScreen({ cambiarPantalla }) {
         vez".
       </h2>
 
-      <div className="flex flex-col md:flex-row  items-center justify-evenly max-w-5xl mx-auto px-4 ">
+      <div className=" containerBolaManos flex flex-col md:flex-row  items-center justify-evenly max-w-5xl mx-auto px-4 ">
         <div>
           <button
             onClick={() => cambiarPantalla("oraculo")}
@@ -30,7 +30,7 @@ function HomeScreen({ cambiarPantalla }) {
           <img
             src={Bola_manos}
             alt="Pregunta al Oráculo"
-            className="bolaManos md:block w-4/5 max-w-md mx-auto"
+            className="bolaManos w-4/5 max-w-md mx-auto"
           />{" "}
         </div>
         <div>

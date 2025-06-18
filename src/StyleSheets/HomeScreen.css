@@ -61,6 +61,7 @@
 @media (max-width: 768px) {
   /* Estilos para pantallas pequeñas */
   .home-screen {
+    height: 85vh;
     padding: 0.5rem;
   }
   .inicio {

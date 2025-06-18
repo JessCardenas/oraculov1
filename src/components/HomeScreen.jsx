@@ -4,14 +4,14 @@ import "../StyleSheets/HomeScreen.css";
 
 function HomeScreen({ cambiarPantalla }) {
   return (
-    <div className="home-screen text-center container mx-auto h-screen overflow-y-hidden flex flex-col justify-center p-6">
+    <div className="home-screen text-center container mx-auto h-screen overflow-y-hidden flex flex-col justify-center -translate-y-10 md:-translate-y-0">
       <h1 className="inicio max-w-xl mx-auto ">
         ¿Dejamos que el destino decida por ti?
       </h1>
 
       <h2 className="subtitulo font-medium max-w-2xl mx-auto my-3 text-center">
         El destino es sabio, pero sus respuestas son breves: "Sí", "No" o "Tal
-        vez".
+        vez"
       </h2>
 
       <div className=" containerBolaManos flex flex-col md:flex-row  items-center justify-evenly max-w-5xl mx-auto px-4 ">

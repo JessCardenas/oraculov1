@@ -9,7 +9,7 @@ function HomeScreen({ cambiarPantalla }) {
         ¿Dejamos que el destino decida por ti?
       </h1>
 
-      <h2 className="subtitulo font-medium max-w-2xl mx-auto my-1 text-center">
+      <h2 className="subtitulo font-medium max-w-2xl mx-auto my-3 text-center">
         El destino es sabio, pero sus respuestas son breves: "Sí", "No" o "Tal
         vez".
       </h2>

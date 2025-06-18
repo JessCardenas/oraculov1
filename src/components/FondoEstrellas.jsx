@@ -24,25 +24,25 @@ const estrellasConfig = [
   {
     variant: "pequeña",
     delay: 0.2,
-    size: 30,
+    size: 40,
     style: { top: "17%", left: "25%" },
   },
   {
     variant: "pequeña",
     delay: 0.5,
-    size: 30,
+    size: 40,
     style: { bottom: "45%", left: "28%" },
   },
   {
     variant: "pequeña",
     delay: 0.7,
-    size: 30,
+    size: 40,
     style: { top: "35%", right: "20%" },
   },
   {
     variant: "pequeña",
     delay: 1.1,
-    size: 30,
+    size: 40,
     style: { bottom: "15%", right: "25%" },
   },
 ];

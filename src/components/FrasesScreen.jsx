@@ -13,7 +13,7 @@ function FrasesScreen({ volver }) {
   }, []);
 
   return (
-    <div className="text-center flex flex-col items-center justify-evenly max-w-5xl mx-auto px-4 gap-y-1 ">
+    <div className="text-center flex flex-col items-center justify-center max-w-5xl mx-auto px-4 gap-y-1 overflow-y-hidden h-screen  -translate-y-10 md:-translate-y-0">
       <img src={Ojo_sticker} alt="ojoSticker" className="ojoSticker  " />
       <p className="fraseRandom max-w-xl">{frase}</p>
       <button onClick={() => volver("home")} className="botonInicio">

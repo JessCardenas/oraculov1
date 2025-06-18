@@ -59,7 +59,6 @@
 }
 
 @media (max-width: 768px) {
-  /* Estilos para pantallas pequeñas */
   .home-screen {
     padding: .5rem;
   }

@@ -18,7 +18,7 @@ function OraculoScreen({ setPregunta, setRespuesta, cambiarPantalla }) {
     <div className="pantalla-oraculo flex flex-col items-center justify-center container max-w-4xl min-h-screen">
       <img src={Eye} alt="EyeSticker" className="eyeSticker" />
       <h1 className="h1screenoraculo">Haz tu pregunta al destino</h1>
-      <h2 className="text-center text-lg mb-4">
+      <h2 className="text-center text-lg m-4">
         El oráculo te escuchará y te dará una respuesta
       </h2>
       <input

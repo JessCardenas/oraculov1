@@ -4,12 +4,12 @@ import "../StyleSheets/HomeScreen.css";
 
 function HomeScreen({ cambiarPantalla }) {
   return (
-    <div className="home-screen text-center container mx-auto min-h-screen overflow-hidden flex flex-col justify-center p-8">
-      <h1 className="inicio max-w-xl mx-auto mt-9">
+    <div className="home-screen text-center container mx-auto h-screen overflow-y-hidden flex flex-col justify-center p-6">
+      <h1 className="inicio max-w-xl mx-auto ">
         ¿Dejamos que el destino decida por ti?
       </h1>
 
-      <h2 className="subtitulo font-medium max-w-2xl mx-auto my-4 text-center">
+      <h2 className="subtitulo font-medium max-w-2xl mx-auto my-3 text-center">
         El destino es sabio, pero sus respuestas son breves: "Sí", "No" o "Tal
         vez".
       </h2>

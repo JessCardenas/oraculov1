@@ -13,7 +13,7 @@ function App() {
   const [respuesta, setRespuesta] = useState("");
 
   return (
-    <div className="min-h-screen text-white flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center overflow-hidden">
       <img
         src={upper_clouds}
         alt="Nubes fondo"

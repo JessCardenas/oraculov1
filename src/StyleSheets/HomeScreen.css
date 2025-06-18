@@ -68,8 +68,9 @@
     padding: 16px 25px;
   }
   .subtitulo {
-    font-size: clamp(1.25rem, 4vw, 1.5rem);
+    font-size: 1rem;
     padding: 1rem;
+    margin: 1rem;
   }
   .containerBolaManos {
     transform: scale(0.8);

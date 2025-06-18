@@ -4,7 +4,7 @@ import "../StyleSheets/HomeScreen.css";
 
 function HomeScreen({ cambiarPantalla }) {
   return (
-    <div className="text-center container mx-auto min-h-screen overflow-hidden flex flex-col justify-center p-10">
+    <div className="home-screen text-center container mx-auto min-h-screen overflow-hidden flex flex-col justify-center p-8">
       <h1 className="inicio max-w-xl mx-auto mt-9">
         ¿Dejamos que el destino decida por ti?
       </h1>
@@ -14,7 +14,7 @@ function HomeScreen({ cambiarPantalla }) {
         vez".
       </h2>
 
-      <div className="flex flex-col md:flex-row  items-center justify-evenly max-w-5xl mx-auto px-4 "> 
+      <div className="flex flex-col md:flex-row  items-center justify-evenly max-w-5xl mx-auto px-4 ">
         <div>
           <button
             onClick={() => cambiarPantalla("oraculo")}

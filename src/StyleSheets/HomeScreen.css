@@ -59,6 +59,10 @@
 }
 
 @media (max-width: 768px) {
+  /* Estilos para pantallas pequeñas */
+  .home-screen {
+    padding: 3rem;
+  }
   .inicio {
     font-size: clamp(2.5rem, 6vw, 4rem);
   }

@@ -75,9 +75,7 @@
   .containerBolaManos {
     transform: scale(0.9);
   }
-  .bolaManos {
-    filter: none;
-  }
+
   .respuestaHomescreen {
     font-size: 2rem;
     padding: 1rem;

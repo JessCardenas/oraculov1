@@ -72,7 +72,7 @@
     margin: 1rem;
   }
   .containerBolaManos {
-    transform: scale(0.8);
+    scale: 0.9;
   }
   .respuestaHomescreen {
     font-size: 2rem;

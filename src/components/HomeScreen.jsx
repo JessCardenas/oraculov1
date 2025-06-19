@@ -14,7 +14,7 @@ function HomeScreen({ cambiarPantalla }) {
         vez"
       </h2>
 
-      <div className=" containerBolaManos flex flex-col md:flex-row  items-center justify-center max-w-5xl mx-auto px-4 ">
+      <div className="containerBolaManos flex flex-col md:flex-row  items-center justify-center max-w-5xl mx-auto px-4 ">
         <div>
           <button
             onClick={() => cambiarPantalla("oraculo")}

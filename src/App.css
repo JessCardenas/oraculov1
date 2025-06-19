@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+.creditos {
+  position: absolute;
+  bottom: 90px;
+  font-family: monospace;
+  font-size: 0.6rem;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  color: transparent;
+  cursor: pointer;
+}
+.creditos:hover {
+  opacity: 1;
+  color: #d5b993;
+}
+
 @media (max-width: 768px) {
   html,
   body {
@@ -12,5 +27,14 @@
   .app-screen {
     height: 100dvh;
     overflow-y: hidden;
+    text-align: center;
+  }
+
+  .creditos {
+    font-size: 0.5rem;
+    max-width: 50%;
+  }
+  .creditos:hover {
+    color: #d5b993;
   }
 }

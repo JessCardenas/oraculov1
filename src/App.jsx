@@ -3,6 +3,7 @@ import HomeScreen from "./components/HomeScreen";
 import OraculoScreen from "./components/OraculoScreen";
 import RespuestaScreen from "./components/RespuestaScreen";
 import FrasesScreen from "./components/FrasesScreen";
+import Creditos from "./utils/creditos";
 import "./App.css";
 import upper_clouds from "./assets/images/upper_clouds.png";
 import Clouds_above from "./assets/images/Clouds_above.svg";
@@ -33,6 +34,8 @@ function App() {
         />
       )}
       {pantalla === "frases" && <FrasesScreen volver={setPantalla} />}
+
+      <Creditos />
 
       <img src={Clouds_above} alt="Nubes fondo" className="underClouds" />
     </div>

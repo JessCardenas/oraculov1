@@ -80,7 +80,7 @@
   }
 
   .bolaManos {
-    
+    transform: scale(0.8);
     filter: none;
   }
 

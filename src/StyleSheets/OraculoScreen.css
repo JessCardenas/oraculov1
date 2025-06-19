@@ -1,6 +1,6 @@
 .pantalla-oraculo {
   width: 100%;
-  min-height: 100vh;
+  min-height: 100dvh;
   gap: 1rem;
 }
 
@@ -85,18 +85,18 @@ h2 {
 @media (max-width: 768px) {
   .pantalla-oraculo {
     padding: 1rem;
+    height: 100dvh;
   }
 
   .eyeSticker {
-    margin-bottom: 10px;
-    transform: scale(0.6);
+    margin-bottom: 20px;
+    width: 30%;
   }
 
   .cajaPregunta {
-    width: 80%;
+    width: 70%;
     padding: 1.3rem;
-    font-size: clamp(1rem, 4vw, 1.5rem);
-    transform: scale(0.8);
+    font-size: 1rem;
   }
 
   .h1screenoraculo {
@@ -105,10 +105,9 @@ h2 {
   }
 
   .botonPreguntar {
-    width: 10rem;
-    font-size: clamp(1rem, 3vw, 1.5rem);
-    line-height: 2.5rem;
-    margin-top: 50px;
-    transform: scale(0.8);
+    width: 8rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-top: 30px;
   }
 }

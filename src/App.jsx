@@ -15,7 +15,6 @@ function App() {
   return (
     <div className="app-screen h-screen flex items-center justify-center overflow-hidden p-4 sm:p-8">
       <img src={upper_clouds} alt="Nubes fondo" className="upperClouds" />
-      
       <FondoEstrellas />
 
       {pantalla === "home" && <HomeScreen cambiarPantalla={setPantalla} />}

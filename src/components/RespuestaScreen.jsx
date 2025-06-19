@@ -3,7 +3,7 @@ import "../StyleSheets/RespuestasScreen.css";
 
 function RespuestaScreen({ pregunta, respuesta, volver }) {
   return (
-    <div className="respuesta-screen flex flex-col items-center justify-center  container max-w-5xl  ">
+    <div className="respuesta-screen flex flex-col items-center justify-center  container max-w-5xl  -translate-y-10 md:-translate-y-0 ">
       <h1 className="h1Respuesta"> El destino ha hablado </h1>
       <h2 className="Pregunta">{pregunta}</h2>
 

@@ -1,4 +1,4 @@
-import Bola_manos from "../assets/images/Bola_manos.svg";
+import Bola_manos from "../assets/images/Bola_manos.png";
 import Estrella_vector from "../assets/images/Estrella_vector.png";
 import "../StyleSheets/HomeScreen.css";
 

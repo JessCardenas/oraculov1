@@ -31,10 +31,6 @@
   }
 
   .creditos {
-    font-size: 0.5rem;
-    max-width: 50%;
-  }
-  .creditos:hover {
-    color: #d5b993;
+    display: none;
   }
 }

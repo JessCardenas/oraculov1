@@ -80,7 +80,7 @@
   }
 
   .bolaManos {
-    transform: scale(75%);
+    transform: scale(0.75);
     filter: none;
   }
 
@@ -88,5 +88,6 @@
     transform: scale(1);
     transition: transform 0.9s ease-in-out;
     z-index: 1;
+    filter: drop-shadow(0px 0px 20px #d5b993);
   }
 }

@@ -6,7 +6,7 @@
   font-family: monospace;
   font-size: 0.6rem;
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.7s ease;
   color: transparent;
   cursor: pointer;
 }
@@ -27,7 +27,6 @@
   .app-screen {
     height: 100dvh;
     overflow-y: hidden;
-    text-align: center;
   }
 
   .creditos {

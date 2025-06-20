@@ -19,7 +19,7 @@ function Music() {
   };
 
   return (
-    <div className="music">
+    <div className="music animate-bounce">
       <button onClick={toggleMusic}>
         <MusicIcon playing={playing} />
       </button>

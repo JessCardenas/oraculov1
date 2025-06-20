@@ -4,7 +4,7 @@ function Creditos() {
   return (
     <div className="creditos">
       <p>
-        Oracle was created and built by Jessica Cárdenas. It is open-sourced on{" "}
+        Oracle was created and built by Jessica Cárdenas and it's open-source on{" "}
         <a
           href="https://github.com/JessCardenas"
           target="_blank"

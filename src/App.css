@@ -16,8 +16,9 @@
 }
 
 .music {
-  position: absolute;
-  left: 30px;
+  display: flex;
+  position: relative;
+  left: 1px;
   transition: transform 0.3s ease, opacity 0.3s ease;
   opacity: 0.8;
   padding: 1rem;
@@ -42,6 +43,8 @@
     overflow-y: hidden;
   }
   .music {
+    display: flex;
+    position: absolute;
     bottom: 100px;
   }
 

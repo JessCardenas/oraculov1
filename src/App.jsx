@@ -4,6 +4,7 @@ import OraculoScreen from "./components/OraculoScreen";
 import RespuestaScreen from "./components/RespuestaScreen";
 import FrasesScreen from "./components/FrasesScreen";
 import Creditos from "./utils/creditos";
+import Music from "./components/Music";
 import "./App.css";
 import upper_clouds from "./assets/images/upper_clouds.png";
 import Clouds_above from "./assets/images/Clouds_above.svg";
@@ -17,6 +18,7 @@ function App() {
     <div className="app-screen h-screen flex items-center justify-center overflow-hidden p-4 sm:p-8">
       <img src={upper_clouds} alt="Nubes fondo" className="upperClouds" />
       <FondoEstrellas />
+      <Music />
 
       {pantalla === "home" && <HomeScreen cambiarPantalla={setPantalla} />}
       {pantalla === "oraculo" && (

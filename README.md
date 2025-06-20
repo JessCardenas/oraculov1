@@ -27,3 +27,33 @@ Con apoyo en UX/UI de Cristina Arco.
 
 ¿Ideas? ¿Errores? ¿Nuevas frases para el oráculo?
 Las contribuciones son bienvenidas.
+
+----ENG---
+
+✨ Oráculo is an interactive and visual experience inspired by mystical wisdom. Ask a question and receive a quick answer: Yes, No, or Maybe. Let yourself be guided by destiny… or by code ✨
+
+Available for both desktop and responsive mobile view.
+
+Built with:
+
+React + Vite
+
+Custom CSS with Tailwind utility classes
+
+Animated SVGs and visual effects
+
+Deployable as a Single Page Application (SPA)
+
+Mystical-themed UI
+
+Fully responsive design
+
+Smooth animations
+
+This project was created and developed by Jessica Cárdenas
+With UX/UI support from Cristina Arco
+
+✨ Inspired by the esoteric, crafted with code 🪄
+
+Have suggestions? Found a bug? Want to add new phrases for the oracle?
+Contributions are welcome!

@@ -57,3 +57,16 @@ With UX/UI support from Cristina Arco
 
 Have suggestions? Found a bug? Want to add new phrases for the oracle?
 Contributions are welcome!
+
+Music:
+La petite fille de la mer (Remastered) · Vangelis
+
+L'apocalypse des animaux
+
+℗ 2016 Spheric B.V.
+
+Released on: 1973-01-01
+
+Recording Engineer, Recording Arranger, Producer, Associated Performer, Composer Lyricist, Studio Personnel: Vangelis
+Engineer, Studio Personnel: Didier Pitois
+Asst. Recording Engineer, Studio Personnel: Philippe Colonna
